@@ -5,4 +5,8 @@ import { defineConfig } from 'astro/config';
 export default defineConfig({
   site: 'https://Ercalvez.github.io',
   base: '/ilke-pazarlama',
+  i18n: {
+    locales: ["tr", "en"],
+    defaultLocale: "tr"
+  }
 });
